@@ -5,4 +5,4 @@ addition(){
   b= $2
   c=$((${a}+${b}))
 }
-echo addition
+addition
