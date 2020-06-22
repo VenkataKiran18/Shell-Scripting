@@ -2,6 +2,9 @@
 a=10
 b=20
 
+value_dynamic=$1
+
+echo value_dynamic
 
 c=$((${a} + ${b}))
 
