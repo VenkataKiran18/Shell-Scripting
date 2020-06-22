@@ -6,7 +6,7 @@ addition(){
   c=$((${a}+${b}))
   echo ${c}
 }
-addition "$1" "$2"
+#addition "$1" "$2"
 
 multiplication(){
   a=$1
