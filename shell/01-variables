@@ -3,8 +3,11 @@ a=10
 b=20
 
 value_dynamic=$1
+test=$2
 
-echo value_dynamic
+echo ${value_dynamic}
+echo ${test}
+
 
 c=$((${a} + ${b}))
 
