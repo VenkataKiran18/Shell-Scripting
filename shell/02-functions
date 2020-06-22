@@ -5,4 +5,3 @@ addition(){
   b= $2
   c=$((${a}+${b}))
 }
-addition ${a} ${b}
