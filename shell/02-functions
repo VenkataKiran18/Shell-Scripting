@@ -7,3 +7,12 @@ addition(){
   echo ${c}
 }
 addition "$1" "$2"
+
+multiplication(){
+  a=$1
+  b=$2
+  c=$((${a}+${b}))
+  echo ${c}
+}
+
+multiplication "$1" "$2"
